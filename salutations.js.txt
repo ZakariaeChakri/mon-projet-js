@@ -1,0 +1,16 @@
+// salutations.js 
+const utilisateurs = ["Ali", "Bilal", "Chams", "Dalil"]; 
+function saluerUtilisateur(nom) { 
+return `Bonjour ${nom}, bienvenue !`; 
+} 
+function saluerTous() { 
+console.log("=== SALUTATIONS ==="); 
+utilisateurs.forEach(utilisateur => { 
+console.log(saluerUtilisateur(utilisateur)); 
+}); 
+console.log("=================="); 
+} 
+// Exécuter 
+Guide clonage  d’un dépôt distant -   DD2web- M. TAIS 
+saluerTous(); 
+console.log(`Nombre d'utilisateurs: ${utilisateurs.length}`);
